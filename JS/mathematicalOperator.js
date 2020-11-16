@@ -100,6 +100,12 @@ console.log(weight); // -> 706.32 N(Newton)
 let operandOne = 4;
 let operandTwo = 3;
 
+/**Warming-up, For Each of the following code blocks, analyze the code and predict what the result of evaluating it would be, then execute the statements in Chrome console.*/
+
+var x = 1;
+var y = x++;
+var z = ++x;
+
 /*Using the above operands apply different JavaScript arithmetic operators to complete the problems below.*/
 
 
