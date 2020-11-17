@@ -139,10 +139,3 @@ var xy = ab != de;
 var yz = de <= ab;
 var zz = 4 <= cd;
 
-console.log(tu);//true
-console.log(uv);//true
-console.log(vw);//false
-console.log(wx);//true
-console.log(xy);//false
-console.log(yz);//true
-console.log(zz);//false

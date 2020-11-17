@@ -30,11 +30,32 @@ Operator	    Description
 
     --	        Decrement operator. Decrease value by one.
 
+                Example: Using decrement operator
+                var x = 10;
+                x--; // x returns 9
+
+
+
     ++x	        Pre-increment	Increments x by one, then returns x
+
+                Example: Using pre-increment
+                var x = 10;
+                var y = ++x;
+
+                // y is 11, x is 11
+
 
     x++	        Post-increment	Returns x, then increments x by one
 
+                Using post-increment
+                //Example var x = 10;
+                // x++; // x returns 11
+
+
     --x	        Pre-decrement	Decrements x by one, then returns x
+
+    //create your own example by using the example above and console.log to test it
+
 
     x--	        Post-decrement	Returns x, then decrements x by one
 
@@ -305,7 +326,7 @@ const bodyTemp = 37;  //Create a variable named heat and use the formula to chan
  *  Math.abs(-4)  //expected result 4*/
 
 
-// Sample problem using math.abs()
+
 
 /** Problem 1
 
@@ -356,11 +377,12 @@ The Math.sqrt() method is used to calculate the square root of a number: Math.sq
 If the number is negative, NaN is returned. Here is an example
 
  let root = Math.sqrt(4);
-console.log(root) //result 2   */
+console.log(root) //result 2
+ Create a variable and use Math.sqrt() so that the output is 5*/
 
 
 /**Problem 6 Store Math.sqrt in a variable use a number in the parameters that will return the output of 0.5 log your variable to verify*/
-//answer Math.sqrt(0.25)
+
 
 /**ONCE YOU HAVE FINISHED THIS REVIEW AS IT IS A BASIC AND WE CANNOT COVER EVERYTHING HERE DUE TO TIME BOXING PLEASE NAVIGATE TO THE URL PROVIDED BELOW TO FURTHER YOUR UNDERSTANDING OF THE MATH OBJECT AND BECOME AWARE OF EVERYTHING THE MATH OBJECT HAS TO OFFER IN JS. SUCH AS Math.min(), Math.max(), Math.PI and much more, feel free to use the Test yourself resource available to strengthen your JS mathematical operator skills! Happy Coding*/
 
