@@ -12,7 +12,10 @@ Syntax:
 3) Logical Operators
 4) Assignment Operators
 5) Conditional Operators
-Operator	Description
+
+
+Operator	    Description
+
     +	        Adds two numeric operands.
 
     -	        Subtract right operand from left operand
@@ -27,8 +30,16 @@ Operator	Description
 
     --	        Decrement operator. Decrease value by one.
 
+    ++x	        Pre-increment	Increments x by one, then returns x
+
+    x++	        Post-increment	Returns x, then increments x by one
+
+    --x	        Pre-decrement	Decrements x by one, then returns x
+
+    x--	        Post-decrement	Returns x, then decrements x by one
 
 
+/*
 
 
 
@@ -46,6 +57,7 @@ Operator	Description
 5.      Equality (greater than or less than)
 
 An acronym to remember these rules is PEMDAS
+
 P (parenthesis)
 E (exponents)
 M (multiplication)
@@ -63,21 +75,19 @@ Example: Arithmetic Operator*/
 let numOne = 4;
 let numTwo = 3;
 let sum = numOne + numTwo;
-let diff = numOne - numTwo;
-let mult = numOne * numTwo;
-let div = numOne / numTwo;
+let difference = numOne - numTwo;
+let multiplication = numOne * numTwo;
+let division = numOne / numTwo;
 let remainder = numOne % numTwo;
 
 //below can be seen in browser console
-console.log(sum, diff, mult, div, remainder); // ->7,1,12,1.33,1
+console.log(sum, difference, multiplication, division, remainder); // ->7,1,12,1.33,1
 
 let PI = 3.14;
 let radius = 100;          // length in meter
 
 const gravity = 9.81;      // in m/s2
 let mass = 72;             // in Kilogram
-const boilingPoint = 100;  // temperature in oC, boiling point of water
-const bodyTemp = 37;       // body temperature in oC
 
 // Lets calculate area of a circle
 
@@ -227,9 +237,6 @@ var z = ++x;
 
 
 
-
-
-
 /**
  Problem 8
 
@@ -279,7 +286,12 @@ let say = "There are " + pa + ma + kids + " people in this family." ;
 
 console.log(say)
 
+//Problem 11
+const boilingPoint = 100;
+//Create a variable named freeze and use the formula to change the boilingPoint temperature in oC.
 
+//problem 12
+const bodyTemp = 37;  //Create a variable named heat and use the formula to change body temperature in oC
 
 
 
